@@ -4,17 +4,25 @@
 
 <head>
 	<h1> Feedback Form </h1>
-	<label for="name">Name</label>
-	<input type="text" id="name" minlength="3" maxlength="50">
+	<div class="container">
+		<label for="name">Name</label>
+		<input type="text" id="name" class="input_ele" minlength="3" maxlength="50">
+	</div>
 	<br>
-	<label for="portfolio">Portfolio</label>
-	<input type="url" id="portfolio">
+	<div class="container">
+		<label for="portfolio">Portfolio</label>
+		<input type="url" id="portfolio" class="input_ele">
+	</div>
 	<br>
-	<label for="favColor">Favourite Color</label>
-	<input type="color" id="favColor">
+	<div class="container">
+		<label for="favColor">Favourite Color</label>
+		<input type="color" id="favColor" class="input_ele">
+	</div>
 	<br>
-	<label for="likeness">How much did you like the color</label>
-	<input id="likeness" type="range" min="1" max="100" val="50">
+	<div class="container">
+		<label for="likeness">How much did you like the color</label>
+		<input id="likeness" type="range" min="1" max="100" val="50" class="input_ele">
+	</div>
 	<br>
 	
 	<link rel="stylesheet" href="styles.css">
